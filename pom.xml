@@ -7,7 +7,7 @@
 
     <groupId>com.uber</groupId>
     <artifactId>remote-shuffle-service</artifactId>
-    <version>0.0.9</version>
+    <version>0.0.14</version>
     <name>remote-shuffle-service</name>
     <description>Remote shuffle service and client.</description>
     <url></url>
@@ -24,10 +24,10 @@
         <java.version>1.8</java.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <hadoop.version>2.7.1</hadoop.version>
-        <spark.version>2.4.3</spark.version>
-        <scala.version>2.11.8</scala.version>
-        <scala.compat.version>2.11</scala.compat.version>
+        <hadoop.version>3.3.1</hadoop.version>
+        <spark.version>3.2.0</spark.version>
+        <scala.version>2.12.10</scala.version>
+        <scala.compat.version>2.12</scala.compat.version>
         <jacoco.version>0.8.2</jacoco.version>
         <guava.version>15.0</guava.version>
         <test.runner.version>2.22.1</test.runner.version>
