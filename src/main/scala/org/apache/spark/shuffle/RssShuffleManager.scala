@@ -97,9 +97,10 @@ class RssShuffleManager(conf: SparkConf) extends ShuffleManager with Logging {
 
     val heartbeatClient = MultiServerHeartbeatClient.getInstance();
     heartbeatClient.setAppContext(user, appId, appAttempt)
-    if (!heartbeatClient.hasServerConnectionRefresher) {
-      heartbeatClient.setServerConnectionRefresher(createServerConnectionRefresher4Heartbeat())
-    }
+    
+    // if (!heartbeatClient.hasServerConnectionRefresher) {
+    //   heartbeatClient.setServerConnectionRefresher(createServerConnectionRefresher4Heartbeat())
+    // }
 
     var rssServerSelectionResult: RssServerSelectionResult = null
 
